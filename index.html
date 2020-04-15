@@ -1,4 +1,75 @@
-<body onclick="game.up1.add(1)">
+<html lang="en" onclick="game.up[8] = game.up[8].add(1)"><head>
+    <title>yeet</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- ast was here -->
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="break_eternity.js"></script>
+    <style>#linkscontainer {
+      transition: 2s;
+      white-space: nowrap;
+      min-height: 35px;
+      overflow: hidden;
+      float: right;
+      margin-right: 0;
+      text-align: right;
+      background-color: darkgrey;
+      display: inline-block;
+    }
+    
+    #linkscontainer.expanded {
+      background-color: #999999;
+    }
+    
+    #linksarrow {
+      transition: 2s;
+      white-space: nowrap;
+      width: 20px;
+      text-align: right;
+      position: relative;
+      float: right;
+      padding-right: 5px;
+      z-index: 1;
+      display: block;
+    }
+    
+    #linksarrow.expanded {
+      transform: rotate(180deg);
+    }
+    
+    #links {
+      transition: 2s;
+      white-space: nowrap;
+      overflow-x: hidden;
+      text-align: right;
+      position: relative;
+      float: right;
+      padding-right: 5px;
+      margin-top: 35px;
+      right: -20px;
+      height: 0;
+      background-color: darkgrey;
+      z-index: 0;
+      overflow-y: hidden;
+    }
+    
+    #links.expanded {
+      height: min(175px,calc(100vh - 35px));
+      background-color: #999999;
+    }</style>
+    <!-- import the webpage's javascript file -->
+    <script src="game.js" defer></script>
+  </head>  
+  <body>
+    </span>
+    <h1>Ферма картошка, мальчик!</h1>
+    <!--- Translates to "Grow potatoes, boy!" --->
+  
+  <audio src="https://cdn.glitch.com/c8440f69-6ebe-48e2-847f-099e2b92d8d1%2Fthonking.mp3?v=1581461883244" id="music" loop="true"></audio>
     <script src="IU.js"></script>
 <script src="save.js"></script>
 <script src="break_eternity.js"></script>
@@ -6,5 +77,54 @@
 <span id="score" style="font-size: 30px;"></span>
 </center>
 UP #1  <span id="up1" style="font-size: 30px;"></span> <br>
-UP #2  <span id="up2" style="font-size: 30px;"></span>  
-</body>
+UP #2  <span id="up2" style="font-size: 30px;"></span> <br>
+UP #3  <span id="up3" style="font-size: 30px;"></span> <br>
+UP #4  <span id="up4" style="font-size: 30px;"></span> <br>
+UP #5  <span id="up5" style="font-size: 30px;"></span> <br>
+UP #6  <span id="up6" style="font-size: 30px;"></span> <br>
+UP #7  <span id="up7" style="font-size: 30px;"></span> <br>
+UP #8  <span id="up8" style="font-size: 30px;"></span> <br>
+UP #9  <span id="up9" style="font-size: 30px;"></span> <br>
+UP #10  <span id="up10" style="font-size: 30px;"></span>  
+<!--  <p style="font-size: 2rem;background-image: url(&quot;The Large Comparison 1.png&quot;);width: 1278px;height: 720px;;background-repeat: no-repeat;"></p>
+  <span  style="font-size: 2rem;">From -- m to 10<sup>-21</sup>m</span>
+  <p style="font-size: 2rem;background-image: url(&quot;The Large Comparison 2.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 10<sup>-21</sup> m to 10<sup>-15</sup>m</span>
+  <p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 3.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span style="font-size: 2rem;">From 10<sup>-15</sup> m to 10<sup>-9</sup>m</span>
+  <p style="font-size: 2rem;background-image: url(&quot;The Large Comparison 4.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 10<sup>-9</sup> m to 10<sup>0</sup>m</span>
+  <p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 5.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 10<sup>0</sup> m to 10<sup>2</sup>m</span>
+  <p style="font-size: 2rem;background-image: url(&quot;The Large Comparison 6.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 10<sup>2</sup> m to 2.38  x 10<sup>2</sup>m</span>
+  <p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 7.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 2.38  x 10<sup>2</sup> m to 1.603 x 10<sup>3</sup>m</span>
+  <p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 8.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 1.603 x 10<sup>3</sup> m to 10<sup>5</sup>m</span>
+	<p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 9.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 10<sup>5</sup> m to  5 x 10<sup>5</sup>m</span>
+	<p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 10.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 5 x 10<sup>5</sup> m to 10<sup>8</sup>m</span>
+	<p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 11.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 10<sup>8</sup> m to 10<sup>9</sup>m</span>
+	<p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 12.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 10<sup>9</sup> m to 2.5 x 10<sup>9</sup>m</span>
+		<p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 13.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 2.5 x 10<sup>9</sup> m to 10<sup>10</sup>m</span>
+	<p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 14.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 10<sup>10</sup> m to 10<sup>11</sup>m</span>
+	<p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 15.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 10<sup>11</sup> m to 9.46 x 10<sup>17</sup>m</span>
+	<p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 16.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 9.46 x 10<sup>17</sup> m to 9.46 x 10<sup>20</sup>m</span>
+	<p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 17.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 9.46 x 10<sup>20</sup> m to 9.46 x 10<sup>22</sup>m</span>
+	<p  style="font-size: 2rem;background-image: url(&quot;The Large Comparison 18 LAST PART.png&quot;);width: 336px;height: 188px;background-repeat: no-repeat;"></p>
+    <span  style="font-size: 2rem;">From 9.46 x 10<sup>22</sup> m to &#x221e m</span> !-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/break_infinity.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@antimatter-dimensions/notations"></script>
+   </body>
+      </div>
+    </span>
+</html>
